@@ -6,7 +6,7 @@ Authors:
 - Jesus Acosta - ja251297@muhlenberg.edu
 - Lyn Huo
 - Philip Lee
-- Marie Grace Imanariyo
+- Marie Grace Imanariyo - mariegraceimanariyo@muhlenberg.edu
 - Max Kirkin
 
 Class: Software Engineering
