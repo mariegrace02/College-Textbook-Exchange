@@ -3,10 +3,10 @@ We are designing a book-sharing website where students will be able to buy, rent
 
 
 Authors: 
-- Jesus Acosta
+- Jesus Acosta - ja251297@muhlenberg.edu
 - Lyn Huo
 - Philip Lee
-- Marie Grace Imanariyo
+- Marie Grace Imanariyo - mariegraceimanariyo@muhlenberg.edu
 - Max Kirkin
 
 Class: Software Engineering
