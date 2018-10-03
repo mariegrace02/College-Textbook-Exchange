@@ -6,8 +6,8 @@ Authors:
 - Jesus Acosta - ja251297@muhlenberg.edu
 - Lyn Huo
 - Philip Lee
-- Marie Grace Imanariyo
-- Max Kirkin
+- Marie Grace Imanariyo - mariegraceimanariyo@muhlenberg.edu
+- Max Kirin
 
 Class: Software Engineering
 Professor: Jorge Silveyra
