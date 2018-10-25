@@ -42,7 +42,7 @@ $Total = 0;
 		if(isset($name) && isset($password))
 			print_r("WELCOME TO CTE: " $name);
 		else
-			print("WE ARE SORRY, NO INPUT");
+			print("WE ARE SORRY; THERE IS NO INPUT");
 	?><br/><br/>
 	
 	
