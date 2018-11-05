@@ -1,0 +1,37 @@
+.wrapper{
+	border: 2px solid black;
+	background-color:#6EC26C  ;
+	/*background-color:#E3CC6F; */
+	width:700px;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:5%;
+	font-size:14pt;
+	
+}
+
+h1
+{
+color: black;
+text-align:center;
+font-family:sans-serif;
+text-decoration:underline;
+}
+
+p.span
+{
+text-align:center;}
+
+legend
+{
+text-align:center;}
+
+#info
+{
+color:red;
+font-size:12pt;
+}
+body
+{
+	background-color: #AC3054  ;
+}
