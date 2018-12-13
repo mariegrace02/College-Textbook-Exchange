@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Login
+Has two fields for user to enter the username and password of their account
+These are posted to the next page, the home page where they are checked
+-->
+<html lang="en">
+
+	<head>
+		<!--
+		Same consistent use of CSS and background to ensure consistency
+		and present a good product
+		-->
+		<title>LOGIN</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="CTE" />
+		<link rel="stylesheet" type="text/css" href="cte.css">
+		<link rel="icon" href="book.jpg" >
+
+	</head>
+
+	<body>
+		<!--Wrapper for the beige background-->
+		<div class="wrapper1">
+			<h1> LOGIN To CTE System </h1>
+			<!--Calling profile.php upon submit, heading to the home page-->
+			<form method="POST" action="profile.php">
+      
+			<!--        
+				This is a section to set up the physical fields
+				where the user will enter some information and make
+				selections from already existing options
+			-->
+	
+			<br/>
+	
+	
+			<form>
+				<fieldset>
+
+					<legend> Please enter your credentials to log in</legend>
+					<br/>
+
+					<label for ="price">Username:</label>
+					<input type ="text" name="username" id="username" size="20" />
+					<br/>
+					<br/>
+
+					<label for ="password">Password:</label>
+					<input type ="password" name="password" id="password" size="20" />
+             
+					<br/>
+					<br/>	
+
+					<!-- 
+					This is the button to submit the inputs
+					-->
+					<input type="submit" name="cal" id="cal" value="SIGN IN"/>
+					<br/>
+					<br/>               
+				
+
+				</fieldset>
+			</form>
+		
+		
+		</div>
+		
+	</body>
+
+</html>

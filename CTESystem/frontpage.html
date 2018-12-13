@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+First page of the system that the user sees
+Gives option to go to login screen or make an account
+-->
+<html lang="en">
+
+
+	<head>
+		<!--
+		Same consistent use of CSS and background to ensure consistency
+		and present a good product
+		-->
+		<title>WELCOME TO CTE</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="CTE" />
+		<link rel="stylesheet" type="text/css" href="cte.css">
+		<link rel="icon" href="book.jpg" >
+
+
+
+	</head>
+
+	<body>
+		<!--Wrapper for the beige background-->
+		<div class="wrapper1">
+			<h1>WELCOME TO CTE</h1>
+			<br/>
+	
+			<fieldset>
+				<legend>Please Select</legend>
+				<br/>
+				<!--Login button-->
+				<form method="POST" action="login.html">
+					<input type="submit" name="login" id="login" value="Log In">
+				</form>
+
+				<br/>
+				<br/>
+				<!--Sign up button-->
+				<form method="POST" action="signup.html">
+					<input type="submit" name="signup" id="signup" value="Sign Up" />
+				</form>
+			</fieldset>
+		</div>
+	</body>
+</html>

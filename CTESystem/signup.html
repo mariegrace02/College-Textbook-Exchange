@@ -1,0 +1,90 @@
+<!--
+signup
+This page gives fields for user to enter all the credentials to create a new account
+They are passed to maxDemoResponse, where they are verified
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<!--same opening statements to create consistent appearance-->
+		<title>SIGN UP</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="CTE" />
+		<link rel="stylesheet" type="text/css" href="cte.css">
+		<link rel="icon" href="book.jpg" >
+		
+
+
+	</head>
+	<!--
+	The div to be able to place our contents with respect to the CSS code
+	-->
+	<body>
+		<div class='wrapper1'>
+	
+
+			<h1>WELCOME TO CTE </h1>
+			<br/>
+		  
+			<fieldset>	   
+				<legend id='legend'>New User Signup:</legend>
+				<p id='bookinfo'> ***Please fill in all information. Thank you!! </p>
+				<br/>
+				<!--form to read all user inputs for their account, posts to maxDemoResponse upon submission-->
+				<form method="POST" action="signupResponse.php">
+
+		  
+			
+			
+					<span><label for="firstname"><strong>First Name: </strong></label>
+					<input type="text" name="firstname" id="firstname" size="15" /></span>
+					<br/>
+					<br/>
+					<span>
+					<span><label for="lastname"><strong>Last Name: </strong></label></span>
+					<input type="text" name="lastname" id="lastname" size="15" /></span>
+					<br/>
+					<br/>					
+					<label for="email"><strong>Email: </strong></label>
+					<input type="text" name="email" id="email" size="20" />
+					<br/>
+					<br/>
+					<span>
+					<label for="phonenumber"><strong> Phone Number: </strong></label>
+					<input type="text" name="phonenumber" id="phonenumber" size="10" />
+					</span>
+					<br/>
+					<br/>
+					<label for="idnumber"><strong>ID Number: </strong></label>
+					<input type="text" name="idnumber" id="idnumber" size="15" />
+					
+					<br/>
+					<br/>
+					<label for="username"><strong>Username: </strong></label>
+					<input type="text" name="username" id="username" size="15" />
+					<br/>
+					<br/>
+					<span>
+					<label for ="password"><strong> Password:</label>
+					<input type ="password" name="password" id="password" size="15" />
+					</span>
+					<br/>
+					<br/>
+					
+						
+					<label for ="passwordagain"><strong> Confirm Password:</label>
+					<input type ="password" name="passwordagain" id="passwordagain" size="30" />
+					<br/>
+					<br/>
+					
+					   
+					<input type="submit" name="signup" id="signup" value="Sign Up" />
+				</form>
+			</fieldset>
+	
+		</div>
+	 </body>
+</html>

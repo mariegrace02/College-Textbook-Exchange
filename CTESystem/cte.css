@@ -1,0 +1,119 @@
+/*
+Authors: Max Kirin, Lyn Huo, Jesus Acosta,
+		Philip Lee & Marie Grace Imanariyo
+cte.css
+This creates the style we want to implement on all of our webpages
+	-accessed by each page in header, or by using background.html
+*/
+
+
+/*
+used on all of our pages to define our div tags, where we print all of our text
+*/
+.wrapper1{
+	border: 2px solid black;
+	/*beige background*/
+	background-image:url(background.png);
+	background-repeat: repeat;
+   	background-size: 100%;
+	width:auto;
+	height:auto;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:5%;
+	font-size:14pt;
+	text-align: center;
+	border-radius: 50px;
+	position:relative;
+
+		
+}
+
+/*
+formats our buttons, especially useful when used in the tables
+*/
+button
+{
+	color:#AC3054;
+	height:50px;
+	width:50px;
+	position:relative;
+
+}
+
+/*all headers we use to title our slides all appear the same*/
+h1
+{
+	color: black;
+	text-align:center;
+	font-family:sans-serif;
+	text-decoration:underline;
+	position: relative;
+	top: 20px;
+	font-family:verdana;
+}
+/*formatting messages*/
+p.span
+{
+	text-align:center;
+}
+
+/*formatting all legends on our forms*/
+legend
+{
+	text-align:center;
+}
+
+/*certain information that we print we want to appear red, to show urgency to the user*/
+#bookinfo
+{
+	color:red;
+	font-size:10pt;
+}
+
+/*implements our background on all of our pages, and formats our fonts we use to be consistent*/
+body
+{
+	background-image:url(bookshelf.jpg);
+	background-repeat: no-repeat;
+   	background-size: 2000px 2000px;
+	font-family:sans-serif;	
+	
+}
+
+/*fixing our fields to display more evenly on the screen*/
+fieldset
+{
+	display:block;
+	padding:30px;
+	width:auto;
+	height:auto;
+	border:hidden;
+
+}
+/*balancing the tables on the screen*/
+table{
+text-align:center;
+padding-left:10%;
+padding-right:10%;
+position:relative;
+}
+
+/*formatting our lists, used on the help page*/
+li,ul{
+	padding-left:5px;
+	padding-right:5px;
+	font-size:10pt;
+}
+
+/*our descriptions for textfields*/
+label
+{
+	position:relative;
+	padding-left:-20px;
+	padding-right:-20px;
+}
+/*all input fields are centered*/
+input{
+	position:auto;
+}

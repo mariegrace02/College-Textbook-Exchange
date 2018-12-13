@@ -1,0 +1,75 @@
+<!--
+help
+This page displays FAQs so the user can learn about how to use the system is something is unclear
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<!--Same code to keep consistency-->
+		<title>Help</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="CTE" />
+		<link rel="stylesheet" type="text/css" href="cte.css">
+		<link rel="icon" href="book.jpg" >
+	</head>
+	<body>
+
+		<div class="wrapper1">
+			<br/>
+			<h1> FAQs </h1>
+			<br/>
+			<!--List of some FAQs, with links to point users in the right direction-->
+			<ol>
+				<li>
+					<h2> How do I add/sell a book to my account? </h2>
+
+					<p> You need to click <a href="addBook.html"> here</a> 
+					and fill all fields so that students
+					can find it </p>
+				</li>
+
+				<li>
+					<h2> Can I edit my profile? </h2>
+
+					<p> In order to edit your profile, 
+					click <a href="accountSettings.php"> here</a>, and you will be able to make 
+					changes. Notice that you are  
+					<strong> NOT </strong> allowed to change your student ID number or your username.</p>
+				</li>
+
+				<li>
+					<h2> Can I have two emails linked to my account? </h2>
+
+					<p> No. The system uses one email at a time. If you change your email, your new email will be matched to your account.
+				</li>
+
+				<li>
+					<h2> How do I buy a book?</h2>
+
+					<p> Click <a href="BuyBook.php">here</a> and follow these steps: </p>
+					<ul style="list-style-type:disc"> 
+						<li> Enter the name/author of your desired book and hit the "submit" button to search </li>
+						<li>A list of books matching your search will appear. Click  <i><u style="font-size:13pt">view</u></i>  to see the quantity of relevant books available for purchase and their prices and descriptions</li>
+						<li>After you choose your book, click  <i><u style="font-size:13pt">buy</u></i>  and you will be able to contact the seller/owner of that book </li>
+					</ul>
+				</li>
+
+				<li>
+					<h2> Is there any limit to the number of books I can sell?</h2>
+
+					<p> No. You can sell as many books as you want.</p>
+				</li>
+				<br>
+				<form method="POST" action="profile.php">
+					<input type="submit" name="home" id="home" value="Return to Home">
+				</form>
+				<br>
+
+
+			</ol>
+		</div>
+	</body>
+</html>
